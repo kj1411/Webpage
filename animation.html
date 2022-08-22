@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            position: relative;
+            left: 50%;
+            top: 200px;
+        }
+
+        .a {
+            background-color: blue;
+            display: inline-block;
+            height: 50px;
+            width: 50px;
+            margin: 2px;
+            animation: myanimA 2s infinite;
+        }
+
+        .b {
+            background-color: red;
+            display: inline-block;
+            height: 50px;
+            width: 50px;
+            margin: 2px;
+            animation: myanimB 2s infinite;
+        }
+
+        .c {
+            background-color: green;
+            display: inline-block;
+            height: 50px;
+            width: 50px;
+            margin: 2px;
+            animation: myanimC 2s infinite;
+        }
+
+        .d {
+            background-color: yellow;
+            display: inline-block;
+            height: 50px;
+            width: 50px;
+            margin: 2px;
+            animation: myanimD 2s infinite;
+        }
+
+        @keyframes myanimA {
+            25% {
+                background-color: blue;
+            }
+
+            50% {
+                background-color: green;
+            }
+
+            75% {
+                background-color: yellow;
+            }
+
+            100% {
+                background-color: red;
+            }
+        }
+
+        @keyframes myanimB {
+            25% {
+                background-color: green;
+            }
+
+            50% {
+                background-color: yellow;
+            }
+
+            75% {
+                background-color: blue;
+            }
+
+            100% {
+                background-color: red;
+            }
+        }
+
+        @keyframes myanimC {
+            25% {
+                background-color: yellow;
+            }
+
+            50% {
+                background-color: blue;
+            }
+
+            75% {
+                background-color: red;
+            }
+
+            100% {
+                background-color: green;
+            }
+        }
+
+        @keyframes myanimD {
+            25% {
+                background-color: blue;
+            }
+
+            50% {
+                background-color: red;
+            }
+
+            75% {
+                background-color: green;
+            }
+
+            100% {
+                background-color: yellow;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="a"></div>
+        <div class="b"></div>
+        <br>
+        <div class="d"></div>
+        <div class="c"></div>
+    </div>
+    <script>
+
+    </script>
+</body>
+
+</html>
